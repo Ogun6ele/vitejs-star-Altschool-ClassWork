@@ -17,7 +17,7 @@ function StarRating({ rating }) {
 
   return (
     <div className="star-wrapper">
-      {[...Array(rating)].map((index) => (
+      {[...Array(rating)].map((_index) => (
         <img
           alt=""
           className="gold-star"
